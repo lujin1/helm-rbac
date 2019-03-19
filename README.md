@@ -1,4 +1,4 @@
 # helm-rbac
-kubectl apply -f helm-rbac.yaml  
+kubectl create -f rbac-config.yaml  
 helm init --service-account tiller
 
